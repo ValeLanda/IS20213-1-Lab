@@ -1,9 +1,14 @@
 
 def maximo(a, b):
-    return max(a,b)
+    if (a > b):
+        return a
+    return b
 
 def longitud(l):
-    return len(l)
+    i = 0
+    for i in l:
+        i+=1
+    return i
 
 def palindromo(s):
     for i in range(len(s)//2):
