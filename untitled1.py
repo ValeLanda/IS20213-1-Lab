@@ -11,9 +11,15 @@ def mayor(a, b):
     else:
         return b
     
-def longitud(l):
+def longitud(lista):
     longitud = 0
-    for n in l:
+    for x in lista:
         longitud = longitud + 1
     return longitud
 
+def es_palindromo(palabra):
+    return palabra == palabra[::-1]
+        
+
+def caracteres(caracter, n):
+    return caracter*n
