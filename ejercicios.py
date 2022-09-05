@@ -5,7 +5,10 @@ def obtener_mayor(a,b):
         return a
 
 def longitud(l):
-    return len(l)
+    i = 0
+    for elem in l:
+        i += 1
+    return i
 
 def es_palindromo(l):
     for i in range(len(l)//2):
@@ -14,4 +17,8 @@ def es_palindromo(l):
     return True
 
 def generar_caracteres(n,x):
-    return x*5
+    y = ""
+    for i in range(n):
+        y += x
+    return y
+
