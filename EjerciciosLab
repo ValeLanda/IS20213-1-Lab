@@ -1,0 +1,17 @@
+'''
+Alumno: Rodrigo Roman Barrera
+Fecha: 07-09-2022
+'''
+
+def numeroMayor(a,b):
+	return a if a>b else b
+
+def length(object):
+	return len(object)
+
+def es_palindromo(word):
+	return str(word) == str(word)[::-1]
+
+
+def generar_caracteres(char,n):
+return char * n
