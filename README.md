@@ -1,2 +1,2 @@
-# IS20213-1-Lab
-## Laboratorio Ingennieria de Software  :sparkles:
+## Laboratorio Ingeiería de Software
+Repositorios de ejercicios. 
